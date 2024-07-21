@@ -1,0 +1,18 @@
+.nav-cont li {
+    display: inline;
+    margin: 60px;
+}
+
+.nav-cont li a {
+    text-decoration: none;
+    color: grey;
+    padding: 20px;
+    border: 2px solid salmon;
+    border-radius: 15px;
+    transition: background-color 200ms ease, color 200ms ease;
+}
+
+.nav-cont li a:hover {
+    background-color: rgba(160, 60, 94, 0.37);
+    color: white;
+}

@@ -1,0 +1,12 @@
+header {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(113, 113, 226, 0.377);
+    padding: 15px;
+}
+
+header h2 {
+    padding: 30px;
+}

@@ -1,0 +1,8 @@
+.Txt-Cont {
+    background-color: rgba(160, 60, 94, 0.37);
+    margin: 50px;
+    padding: 25px;
+    text-align: center;
+    border-radius: 45px;
+    border: 2px solid salmon;
+}
