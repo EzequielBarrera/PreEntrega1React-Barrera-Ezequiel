@@ -1,19 +1,25 @@
 import "./NavBar.css";
-import Elementos_Clickeables from "./El_Click/El_Click.jsx";
+import Navegador from "./Navegador/Navegador.jsx";
 import CartWidget from "./CartWidget/CartWidget.jsx";
+import { Link } from "react-router-dom";
 
 const Titulo = () => {
-  return <h2>Mi Tienda</h2>;
+  return <h2>Steamn't</h2>;
 };
 
 const NavBar = () => {
   return (
     <header>
-      <Titulo />
+      <Link to="/" className="title">
+        <Titulo />
+      </Link>
+
       <div>
-        <Elementos_Clickeables />
+        <Navegador />
       </div>
-      <CartWidget />
+      <Link to="/cart" className="cart">
+        <CartWidget />
+      </Link>
     </header>
   );
 };
