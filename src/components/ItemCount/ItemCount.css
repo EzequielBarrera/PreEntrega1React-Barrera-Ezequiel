@@ -1,0 +1,10 @@
+button {
+    padding: 4px;
+    margin: 9px;
+    border-radius: 10px;
+}
+
+.buy:hover {
+    transform: scale(1.2);
+    transition: all ease 150ms;
+}

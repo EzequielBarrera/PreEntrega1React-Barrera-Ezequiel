@@ -14,16 +14,30 @@
 
 .cardItem .imgDetail {
     width: 100%;
-    padding: 10px;
+    padding: 30px;
 }
 
 .cardItem .bodyDetail {
     text-align: center;
     padding-bottom: 10px;
+    padding: 10px;
 }
 
 .bodyDetail p {
     color: black;
     padding: 15px;
 
+}
+
+.compra {
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgb(233, 96, 81);
+    color: white;
+}
+
+.compra:hover {
+    color: black;
+    transform: scale(1.2);
+    transition: ease all 100ms;
 }

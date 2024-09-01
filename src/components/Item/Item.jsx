@@ -10,6 +10,7 @@ const Item = ({ info }) => {
           <strong>{info.title}</strong>
         </p>
         <p> {info.description}</p>
+        <button className="compra">¡Jugalo ahora!</button>
       </div>
     </Link>
   );

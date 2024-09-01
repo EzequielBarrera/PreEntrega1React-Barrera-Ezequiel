@@ -1,5 +1,4 @@
 import "./CartWidget.css";
-// import CartWidgetIcon from "bootstrap-icons";
 
 const CartWidget = () => {
   return (
