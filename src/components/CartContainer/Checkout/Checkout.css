@@ -1,0 +1,32 @@
+.formContainer {
+    margin: 25px;
+    background-color: rgba(250, 128, 114, 0.63);
+    border: 2px solid salmon;
+    border-radius: 10px;
+    width: 500px;
+    padding: 15px;
+
+}
+
+h1 {
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+h3 {
+    display: block;
+    text-align: center;
+    font-family: 'Prompt', sans-serif;
+    margin-bottom: 20px;
+}
+
+.inputCont {
+    margin: 15px;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+.total {
+    text-align: center;
+    font-size: 24px;
+}

@@ -35,9 +35,11 @@ export const Provider = ({ children }) => {
     setItems(filter);
   };
 
+  const total = items.reduce((acc, act) => acc + act.precio * act.quantity, 0);
+
   return (
     <ItemsContext.Provider
-      value={{ removeItem, addItem, items, reset, contadorProductos }}
+      value={{ total, removeItem, addItem, items, reset, contadorProductos }}
     >
       {children}
     </ItemsContext.Provider>

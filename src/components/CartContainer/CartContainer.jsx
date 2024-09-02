@@ -2,8 +2,9 @@ import { useItemContext } from "../../context/ItemContext";
 import { Link } from "react-router-dom";
 import CartItem from "../CartItem/CartItem";
 import "./CartContainer.css";
+import Checkout from "./Checkout/Checkout";
 const CartContainer = () => {
-  const { items, reset } = useItemContext();
+  const { total, items, reset } = useItemContext();
 
   if (items.length == 0) {
     return (
@@ -23,12 +24,11 @@ const CartContainer = () => {
           <CartItem key={product.id} product={product} />
         ))}
       </div>
-      {/* <p>Total: ${precioTotal()}</p> */}
 
       <div className="btnContainer">
         <button onClick={() => reset()}>Vaciar carrito</button>
       </div>
-      {/* <Checkout /> */}
+      <Checkout />
     </div>
   );
 };
