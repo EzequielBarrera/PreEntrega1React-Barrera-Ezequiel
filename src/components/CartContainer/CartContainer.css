@@ -1,0 +1,7 @@
+.cartContainer {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    flex-wrap: nowrap;
+    margin: 15px;
+}

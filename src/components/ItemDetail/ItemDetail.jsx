@@ -6,7 +6,7 @@ const ItemDetail = ({ data }) => {
   const { addItem } = useItemContext();
 
   const onAdd = (quantity) => {
-    addItem(data, quantity);
+    addItem({ ...data, quantity });
   };
 
   return (
@@ -18,7 +18,7 @@ const ItemDetail = ({ data }) => {
         <p className="priceDetails">Precio: ${data.precio}</p>
         <br />
         <div>
-          <ItemCount onAdd={onAdd} />
+          <ItemCount stock={data.stock} onAdd={onAdd} />
         </div>
       </div>
     </div>
