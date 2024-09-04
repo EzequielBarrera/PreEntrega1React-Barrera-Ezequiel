@@ -26,9 +26,9 @@ Para que el proyecto se logre realizar de una manera esperada utilicé las sigui
 
 |    Campo      |   Tipo        |   Valor       |
 | ------------- | ------------- | ------------- |
-|   title       |   String      |   Nombre      |
 |   category    |   String      |   Categoría   |
-|   pictureUrl  |   String      |       img     |
 | description   |   String      | Descripcion   |
+|   pictureUrl  |   String      |       img     |
 |      precio   |   number      |     Precio    |
 |       stock   |   number      |       stock   |
+|   title       |   String      |   Nombre      |
