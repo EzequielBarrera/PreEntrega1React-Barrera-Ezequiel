@@ -1,8 +1,34 @@
-# React + Vite
+# Mi proyecto final de React JS 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> Este es un proyecto realizado para el curso de React JS. Se trata de un ecommerce en el que podrás navegar por distintas categorías y adquirir tu orden de compra de los productos que has seleccionado.
 
-Currently, two official plugins are available:
+## Tecnologías principales:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🛠️ React JS
+
+🛠️ JavaScript
+
+🛠️ HTML
+
+🛠️ CSS
+
+## Algunas librerias:
+
+Para que el proyecto se logre realizar de una manera esperada utilicé las siguientes herramientas:
+
+⚡ React-router-dom: routing de la web
+
+⚡ React-Firebase: base de datos 
+
+## Firebase / Firestore
+
+- Colección: Items. Cada item tiene las siguientes características:
+
+|    Campo      |   Tipo        |   Valor       |
+| ------------- | ------------- | ------------- |
+|   title       |   String      |   Nombre      |
+|   category    |   String      |   Categoría   |
+|   pictureUrl  |   String      |       img     |
+| description   |   String      | Descripcion   |
+|      precio   |   number      |     Precio    |
+|       stock   |   number      |       stock   |
